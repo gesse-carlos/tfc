@@ -4,6 +4,7 @@
   "description": "Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.",
   "main": "index.js",
   "scripts": {
+    "build": "react-scripts build",
     "postinstall": "npm run install:apps",
     "install:apps": "./apps_install.sh",
     "pretest": "(cd ./app/backend && /bin/sh tsc_eval.sh)",
